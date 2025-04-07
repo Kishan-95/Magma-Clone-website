@@ -45,7 +45,7 @@ gsap.to('#page2>h1>span',{
   scrollTrigger:{
     trigger:`#page2>h1>span`,
     start:`top bottom`,
-    end:`bottom center`,
+    end:`bottom top`,
     scroller:`#main`,
     scrub:.5
   },
@@ -218,7 +218,7 @@ gsap.to('#page4>h1>span',{
   scrollTrigger:{
     trigger:`#page4>h1>span`,
     start:`top bottom`,
-    end:`bottom center`,
+    end:`bottom top`,
     scroller:`#main`,
     scrub:.5
   },
@@ -392,7 +392,7 @@ gsap.to('#page6>h1>span',{
   scrollTrigger:{
     trigger:`#page6>h1>span`,
     start:`top bottom`,
-    end:`bottom center`,
+    end:`bottom top`,
     scroller:`#main`,
     scrub:.5
   },
